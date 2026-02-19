@@ -1,0 +1,138 @@
+body {
+    font-family: 'Fredoka One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    /* Light blue background */
+    color: #333;
+}
+
+header {
+    background-color: #ff69b4;
+    /* Hot pink */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #32cd32;
+    /* Lime green */
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about {
+    background-color: #fffacd;
+    /* Lemon chiffon */
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+#products {
+    background-color: #dda0dd;
+    /* Plum */
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.product {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    animation: wiggle 0.5s ease-in-out;
+}
+
+.product h3 {
+    color: #ff69b4;
+    margin-top: 0;
+}
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-3deg);
+    }
+
+    75% {
+        transform: rotate(3deg);
+    }
+}
+
+#contact {
+    background-color: #98fb98;
+    /* Pale green */
+    border-radius: 10px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 10px;
+}
