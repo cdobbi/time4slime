@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    background: url(images/pastelcream.jpg) no-repeat fixed center center / cover;
+    background: url(../images/pastelcream.jpg) no-repeat fixed center center / cover;
     color: #333;
 }
 
@@ -74,13 +74,13 @@ section {
     background-color: #fffacd;
     /* Lemon chiffon */
     border-radius: 10px;
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 
 #products {
     background-color: #dda0dd;
     border-radius: 10px;
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 
 .product-grid {
@@ -127,7 +127,7 @@ section {
     background-color: #98fb98;
     /* Pale green */
     border-radius: 10px;
-    margin: 2rem 0;
+    margin: 2rem auto;
     text-align: center;
 }
 
