@@ -25,16 +25,6 @@ header p {
     font-size: 1.2rem;
 }
 
-#header-slime {
-    position: absolute;
-    top: 20px;
-    left: 60%;
-    z-index: -1;
-    transform: rotate(15deg);
-    width: 150px;
-    opacity: 0.8;
-}
-
 nav {
     background-color: #32cd32;
     /* Lime green */
@@ -145,4 +135,16 @@ img {
     display: block;
     margin: 1rem auto;
     border-radius: 10px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.about-images img {
+    display: inline-block;
+    margin: 0;
 }
