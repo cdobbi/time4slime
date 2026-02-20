@@ -5,10 +5,6 @@ body {
     padding: 0;
     background: url(images/pastelcream.jpg) no-repeat fixed center center / cover;
     color: #333;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 header {
@@ -75,15 +71,14 @@ section {
 }
 
 #about {
-    background-color: rgba(255, 250, 205, 0.8);
+    background-color: #fffacd;
     /* Lemon chiffon */
     border-radius: 10px;
     margin: 2rem 0;
-    text-align: center;
 }
 
 #products {
-    background-color: rgba(221, 160, 221, 0.8);
+    background-color: #dda0dd;
     border-radius: 10px;
     margin: 2rem 0;
 }
@@ -129,7 +124,7 @@ section {
 }
 
 #contact {
-    background-color: rgba(152, 251, 152, 0.8);
+    background-color: #98fb98;
     /* Pale green */
     border-radius: 10px;
     margin: 2rem 0;
@@ -141,6 +136,9 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 img {
